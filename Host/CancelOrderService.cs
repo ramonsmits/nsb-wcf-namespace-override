@@ -1,37 +1,41 @@
 ﻿using NServiceBus;
 
-public class CancelOrderService :
-    WcfService<CancelOrder, ErrorCodes>
+namespace Host
 {
-}
-
-public class CancelOrderHandler :
-    IHandleMessages<CancelOrder>
-{
-    IBus bus;
-
-    public CancelOrderHandler(IBus bus)
+    public class CancelOrderService :
+        WcfService<CancelOrder, ErrorCodes>
     {
-        this.bus = bus;
     }
 
-    public void Handle(CancelOrder message)
+    public class CancelOrderHandler :
+        IHandleMessages<CancelOrder>
     {
-        // code to handle the message
+        IBus bus;
 
-        // return a status so that the WCF service has a return value
-        bus.Return(ErrorCodes.Success);
+        public CancelOrderHandler(IBus bus)
+        {
+            this.bus = bus;
+        }
+
+        public void Handle(CancelOrder message)
+        {
+            // code to handle the message
+
+            // return a status so that the WCF service has a return value
+            bus.Return(ErrorCodes.Success);
+        }
     }
-}
 
-public enum ErrorCodes
-{
-    Success,
-    Fail
-}
+    public enum ErrorCodes
+    {
+        Success,
+        Fail
+    }
 
-public class CancelOrder :
-    ICommand
-{
-    public int OrderId { get; set; }
+    public class CancelOrder :
+        ICommand
+    {
+        public int OrderId { get; set; }
+
+    }
 }
