@@ -22,12 +22,11 @@
     <MetadataSource Address="http://localhost:9009/services/cancelOrder" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="cancelOrder.xsd" MetadataType="Schema" ID="3fd9df22-7fa7-4abc-ae91-453beaeaf178" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd2" />
-    <MetadataFile FileName="cancelOrder.wsdl" MetadataType="Wsdl" ID="e2887f7f-8a96-43dc-b48e-01bb38e53698" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?wsdl=wsdl0" />
-    <MetadataFile FileName="cancelOrder.disco" MetadataType="Disco" ID="ae5dfc5a-55b4-40d1-85a5-81f9d0f4634d" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?disco" />
-    <MetadataFile FileName="cancelOrder1.xsd" MetadataType="Schema" ID="a61da533-9c9c-4900-85cc-eb679a568f0e" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd1" />
     <MetadataFile FileName="cancelOrder2.xsd" MetadataType="Schema" ID="4ccef9d2-ddb9-45cf-b2ee-935904ee4bff" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd0" />
+    <MetadataFile FileName="cancelOrder1.xsd" MetadataType="Schema" ID="a61da533-9c9c-4900-85cc-eb679a568f0e" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd1" />
     <MetadataFile FileName="CancelOrderService.wsdl" MetadataType="Wsdl" ID="2fe901bd-6b32-4066-b207-977835c0ed4d" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?wsdl" />
+    <MetadataFile FileName="cancelOrder.xsd" MetadataType="Schema" ID="3fd9df22-7fa7-4abc-ae91-453beaeaf178" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd2" />
+    <MetadataFile FileName="cancelOrder.disco" MetadataType="Disco" ID="ae5dfc5a-55b4-40d1-85a5-81f9d0f4634d" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -70,13 +70,13 @@ namespace ClientWsdl.CancelOrderSvc {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://nservicebus.com", ConfigurationName="CancelOrderSvc.IWcfServiceOf_CancelOrder_ErrorCodes")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="CancelOrderSvc.IWcfServiceOf_CancelOrder_ErrorCodes")]
     public interface IWcfServiceOf_CancelOrder_ErrorCodes {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://nservicebus.com/IWcfServiceOf_CancelOrder_ErrorCodes/Process", ReplyAction="http://nservicebus.com/IWcfServiceOf_CancelOrder_ErrorCodes/ProcessResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWcfServiceOf_CancelOrder_ErrorCodes/Process", ReplyAction="http://tempuri.org/IWcfServiceOf_CancelOrder_ErrorCodes/ProcessResponse")]
         ClientWsdl.CancelOrderSvc.ErrorCodes Process(ClientWsdl.CancelOrderSvc.CancelOrder request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://nservicebus.com/IWcfServiceOf_CancelOrder_ErrorCodes/Process", ReplyAction="http://nservicebus.com/IWcfServiceOf_CancelOrder_ErrorCodes/ProcessResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWcfServiceOf_CancelOrder_ErrorCodes/Process", ReplyAction="http://tempuri.org/IWcfServiceOf_CancelOrder_ErrorCodes/ProcessResponse")]
         System.Threading.Tasks.Task<ClientWsdl.CancelOrderSvc.ErrorCodes> ProcessAsync(ClientWsdl.CancelOrderSvc.CancelOrder request);
     }
     
