@@ -11,7 +11,6 @@ namespace ClientTyped
     {
         static void Main(string[] args)
         {
-            NServiceBus.Configure.
         }
     }
 }
