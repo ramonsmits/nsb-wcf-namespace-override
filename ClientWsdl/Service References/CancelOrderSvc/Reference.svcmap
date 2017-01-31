@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cd5cbb5c-d83c-442e-a7bd-89259681503f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9009/services/cancelOrder" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="cancelOrder.xsd" MetadataType="Schema" ID="3fd9df22-7fa7-4abc-ae91-453beaeaf178" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd2" />
+    <MetadataFile FileName="cancelOrder.wsdl" MetadataType="Wsdl" ID="e2887f7f-8a96-43dc-b48e-01bb38e53698" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?wsdl=wsdl0" />
+    <MetadataFile FileName="cancelOrder.disco" MetadataType="Disco" ID="ae5dfc5a-55b4-40d1-85a5-81f9d0f4634d" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?disco" />
+    <MetadataFile FileName="cancelOrder1.xsd" MetadataType="Schema" ID="a61da533-9c9c-4900-85cc-eb679a568f0e" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd1" />
+    <MetadataFile FileName="cancelOrder2.xsd" MetadataType="Schema" ID="4ccef9d2-ddb9-45cf-b2ee-935904ee4bff" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?xsd=xsd0" />
+    <MetadataFile FileName="CancelOrderService.wsdl" MetadataType="Wsdl" ID="2fe901bd-6b32-4066-b207-977835c0ed4d" SourceId="1" SourceUrl="http://localhost:9009/services/cancelOrder?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
